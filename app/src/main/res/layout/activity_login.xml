@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/emlo"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColorHint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/palo"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:id="@+id/logbut"
+        android:background="@color/colorPrimary"
+        android:text="REGISTER"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regtxt"
+        android:layout_below="@+id/logbut"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Not yet joined Zibzy Family?"
+        android:textAlignment="center"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forpass"
+        android:layout_below="@+id/regtxt"
+        android:layout_marginTop="22dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:clickable="true"/>
+
+</RelativeLayout>

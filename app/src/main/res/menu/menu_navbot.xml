@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_chats"
+        android:title="Chats"
+        android:icon="@drawable/chaticon"/>
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/profileicon"/>
+    <item android:id="@+id/action_users"
+        android:title="Users"
+        android:icon="@drawable/usersicon"/>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "497550621843",
+    "firebase_url": "https://zibzy-54652.firebaseio.com",
+    "project_id": "zibzy-54652",
+    "storage_bucket": "zibzy-54652.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497550621843:android:6285236cb392174c",
+        "android_client_info": {
+          "package_name": "com.ds.zibzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497550621843-07pfg5pm1baogi61vp471gcm18j82ac0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ds.zibzy",
+            "certificate_hash": "50edb6469f294b24903882a48d775df93188f903"
+          }
+        },
+        {
+          "client_id": "497550621843-qbfk32k69ae4sep41c438vunnl81a3gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADv_LAlWkT-C6Op5jcDd6jnGPhb6ue-bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497550621843-qbfk32k69ae4sep41c438vunnl81a3gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
